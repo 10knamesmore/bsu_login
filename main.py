@@ -8,16 +8,16 @@ import urllib.parse
 import urllib.request
 
 # 登录（不传 ip）
-# python bsu_login.py --username 账号 --password 密码
+# python main.py --username 账号 --password 密码
 
 # 登录（指定 ip）
-# python bsu_login.py --username 账号 --password 密码 --ip 172.x.x.x
+# python main.py --username 账号 --password 密码 --ip 172.x.x.x
 
 # 下线（用户名）
-# python bsu_login.py --logout --username 账号
+# python main.py --logout --username 账号
 
 # 下线（IP）
-# python bsu_login.py --logout --ip 172.x.x.x
+# python main.py --logout --ip 172.x.x.x
 
 N = "200"
 TYPE = "1"
